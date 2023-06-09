@@ -19,7 +19,7 @@ chmod +x ost
 sudo mv ost /usr/local/bin/
 ```
 You will be prompted for your account password.
->Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also, under any equipped Windows or GNU/Linux computer.
+>Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-rami/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also, under any equipped Windows or GNU/Linux computer.
 
 If the destination does not exist:
 ```
