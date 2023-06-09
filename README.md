@@ -14,7 +14,7 @@ Of course you're free to use any speech engine you like and modify the source as
 ## Installation
 Assuming you don't have git installed, to install: click the green [ Code ] button and select Download ZIP. Extract and then via Terminal type:
 ```
-cd Downloads/ost/
+cd Downloads/ost-rami/
 chmod +x ost
 sudo mv ost /usr/local/bin/
 ```
