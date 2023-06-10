@@ -5,19 +5,11 @@
 
 # Functions:
 
-	utter() { printf $1; say -v Fred $1; }
+	utter() { printf "$1"; say "$1"; }
 
 	intro() { utter "Whatever you type, I will say for you."; }
 
-	more() { utter "I am the script file $0"; }
-
 # Program:
-
-	utter "Oscar's Saying Tool" && echo && sleep 3
-
-	request="Type your name: "; utter $request &
-	read name
-	say -v Samantha "Welcome $name!"; sleep 2
 
 	intro; sleep 1; echo
 
