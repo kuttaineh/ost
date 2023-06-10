@@ -11,7 +11,7 @@
 
 # Program:
 
-	intro; sleep 1; echo
+	intro; echo
 
 	while do
 		read words
