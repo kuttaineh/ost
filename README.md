@@ -3,7 +3,7 @@
 Provides straightfoward Text-to-Speech via say. 
 
 ## Platform details
-Written originally for macOS; should work for GNU/Linux with [say](https://manpages.org/say) installed (check your package manager) however, the voice specifications would have to be striped away. It may be possible to utilize this alternate say package upon Windows too by utilizing the [GNUstep windows installer](https://gnustep.github.io/windows/installer.html) however, this has not yet been tested.
+Written originally for macOS; should work for GNU/Linux with [say](https://manpages.org/say) installed (check your package manager). It may be possible to utilize this alternate say package upon Windows too by utilizing the [GNUstep windows installer](https://gnustep.github.io/windows/installer.html) however, this has not yet been tested.
 
 ### For Windows users: 
 You may choose to try the path above or, install [zsh](https://walterteng.com/using-zsh-on-windows) and [wsay](https://github.com/p-groarke/wsay). Then update the ost file via a global search-and-replace in order to add the letter 'w' infront of all existing calls to say. Alternatively, you could just rename wsay.exe to say.exe and leave the source alone.
