@@ -5,13 +5,13 @@
 
 # Functions:
 
-	utter() { printf "$1"; say "$1"; }
+	utter() { print "$1"; say "$1"; }
 
 	intro() { utter "Whatever you type, I will say for you."; }
 
 # Program:
 
-	intro; echo
+	intro
 
 	while do
 		read words
