@@ -18,7 +18,7 @@ cd Downloads/ost-mvp/
 sudo mv ost /usr/local/bin/
 ```
 You will be prompted for your account password.
->Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-mvp/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also, under any equipped Windows or GNU/Linux host.
+>Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-mvp/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also upon any equipped Windows or GNU/Linux host.
 
 If the destination does not exist:
 ```
