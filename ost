@@ -23,6 +23,11 @@
 
 	while do
 		read words
-		say "$words"
+		if [[ $words = \\* ]]
+		then
+			bash ps
+		else
+			say "$words"
+		fi
 	done
 	

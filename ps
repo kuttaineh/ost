@@ -1,0 +1,61 @@
+#!/bin/bash
+# Prereprogrammed Speech
+# Written by https://m.me/Rammy
+# Description: User predetermined utterances.
+utter() { nice -19 say "$1" & printf "$1"; }
+while read -n1 -s -p " "; do
+	case $REPLY in
+	#### Cases 1-? are yours to define, redefine, and add to.
+		1) utter "1" ;;
+		2) utter "2" ;;
+		3) utter "3" ;;
+		4) utter "4" ;;
+		5) utter "5" ;;
+		6) utter "6" ;;
+		7) utter "7" ;;
+		8) utter "8" ;;
+		9) utter "9" ;;
+		\0) utter "0" ;;
+		\-) utter "-" ;;
+		=) utter "=" ;;
+		q) break ;;
+		Q) utter "Quiet, please." ;;
+		w) utter "w" ;;
+		e) utter "Eat." ;;
+		r) utter "Redo." ;;
+		t) utter "Teatime." ;;
+		y) utter "Yes." ;;
+		u) utter "u" ;;
+		i) utter "I have an idea." ;;
+		o) utter "Open this." ;;
+		p) utter "Please." ;;
+		[) utter "[" ;;
+		]) utter "]" ;;
+		\\) utter "\\" ;;
+		a) utter "Apple." ;;
+		A) utter "An example of an adage is, \"An apple a day keeps the doctor away.\"" ;;
+		s) utter "Supper." ;;
+		d) utter "Diaper." ;;
+		f) utter "Please stop talking." ;;
+		g) utter "Gosh golly gee willikers." ;;
+		h) utter "I have a hunch." ;;
+		i) utter "I do not understand." ;;
+		j) utter "Joking." ;;
+		k) utter "Okay." ;;
+		l) utter "Lunch" ;;
+		z) utter "Zzz..." ;;
+		Z) utter "Zerocool, man." ;;
+		x) utter "x" ;;
+		c) utter "Cup please." ;;
+		v) utter "Very good." ;;
+		b) utter "Breakfast." ;;
+		n) utter "No." ;;
+		m) utter "Pay attention to me." ;;
+		,) utter "," ;;
+		.) utter "." ;;
+		/) utter "/" ;;
+		?) utter "I have a question." ;;
+		*) utter "[undefined]" ;;	## as inputs are single character ? is acting as *
+	esac
+done
+echo

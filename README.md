@@ -15,11 +15,10 @@ You're free to use any speech engine you like and modify the source as needed. A
 Assuming you don't have git installed, to install: click the green [ Code ] button and select Download ZIP. Extract and then via Terminal type:
 ```
 cd Downloads/ost-mvp/
-chmod +x ost
 sudo mv ost /usr/local/bin/
 ```
 You will be prompted for your account password.
->Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-mvp/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also, under any equipped Windows or GNU/Linux computer.
+>Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-mvp/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also upon any equipped Windows or GNU/Linux host.
 
 If the destination does not exist:
 ```
@@ -27,13 +26,37 @@ sudo mkdir -p /usr/local/bin/
 ```
 And repeat the mv command.
 
+If you'd like preprogrammed speech similarly installed:
+```
+sudo mv ps /usr/local/bin/
+```
+
 ### To run:
 ```
 ost
 ```
 
-### To quit:
-^c (control-C)
+#### Accessing preprogrammed speech:
+If you'd like the access blocks of preprogrammed strings of words via single keystrokes then, type:
+```
+\\
+```
+Followed by [return] ((on some keyboards the 'return' key is labled 'enter'))
+
+##### To quit the preprogrammed speech module:
+Type:
+```
+q
+```
+The letter q
+
+### To exit ost
+Type:
+```
+^C
+```
+The keyboard combination (aka chord, as in guitar chord) [control]-[C], that is: press the control key and C key at the same time.
 
 #### Questions or comments:
 Write the man listed on the third line of the ost file.
+
