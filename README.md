@@ -36,14 +36,14 @@ sudo mv ps /usr/local/bin/
 ost
 ```
 
-#### Accessing preprogrammed speech:
+#### Accessing preprogrammed speech
 If you'd like the access blocks of preprogrammed strings of words via single keystrokes then, type:
 ```
 \\
 ```
 Followed by [return] ((on some keyboards the 'return' key is labled 'enter'))
 
-##### To quit the preprogrammed speech module:
+#### To quit the preprogrammed speech module
 Type:
 ```
 q
