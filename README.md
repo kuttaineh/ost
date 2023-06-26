@@ -41,7 +41,7 @@ If you'd like to access blocks of preprogrammed strings of words via single keys
 ```
 \\
 ```
-Followed by [return] ((on some keyboards the 'return' key is labled 'enter'))
+Followed by [return] ((on some keyboards the 'return' key is labeled 'enter'))
 
 #### To quit the preprogrammed speech module
 Type:
