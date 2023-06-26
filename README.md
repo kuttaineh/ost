@@ -37,7 +37,7 @@ ost
 ```
 
 #### Accessing preprogrammed speech
-If you'd like the access blocks of preprogrammed strings of words via single keystrokes then, type:
+If you'd like to access blocks of preprogrammed strings of words via single keystrokes then, type:
 ```
 \\
 ```
