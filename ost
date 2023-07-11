@@ -1,0 +1,24 @@
+#!/bin/zsh
+# Oscar's Saying Tool
+# Written by: https://m.me/Rammy
+# Description: This tool receives input and has say speak it.
+
+# Functions:
+
+	utter() { printf $1; say -v Samantha $1; }
+
+	instruct() { utter "[backstroke]\\[backstroke]\\[return] to enter into programmable speech mode; type q to return to freemode."; }
+
+# Program:
+
+	instruct
+	while do
+		read words
+		if [[ $words = \\* ]]
+		then
+			bash ps
+		else
+			say "$words"
+		fi
+	done
+	
