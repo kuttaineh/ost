@@ -15,10 +15,14 @@ You're free to use any speech engine you like and modify the source as needed. A
 Assuming you don't have git installed, to install: click the green [ Code ] button and select Download ZIP. Extract and then via Terminal type:
 ```
 cd Downloads/ost-mvp/
+```
+To run, type ```./ost```. 
+Don't want to have to type ./ before the command? Then move the executable to one of your pathed directories. ie.:
+```
 sudo mv ost /usr/local/bin/
 ```
 You will be prompted for your account password.
->Note: if you don't want to provide your account password in order to make the tool accessable via the run command below then, you can (after issuing cd Downloads/ost-mvp/) simply type: ```zsh ost``` and the program will still run, by default under macOS and also upon any equipped Windows or GNU/Linux host.
+>Note: if you don't want to provide your account password in order to make the tool accessable via the run command below (```ost``` instead of ```./ost```) then, you can (after issuing ```cd Downloads/ost-mvp/```) simply type: ```zsh ost``` and the program will still run, by default under macOS and also upon any equipped Windows or GNU/Linux host.
 
 If the destination does not exist:
 ```
