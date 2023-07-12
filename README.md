@@ -24,7 +24,7 @@ You will be prompted for your account password.
 
 If the destination does not exist:
 ```
-sudo mkdir -p /usr/local/bin/
+sudo mkdir -p /usr/local/bin
 ```
 And repeat the mv command.
 
