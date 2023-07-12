@@ -8,7 +8,7 @@ Written originally for macOS; should work for GNU/Linux with [say](https://manpa
 ### For Windows users: 
 You may choose to try the path above or, install [zsh](https://walterteng.com/using-zsh-on-windows) and [wsay](https://github.com/p-groarke/wsay). Then update the ost file via a global search-and-replace in order to add the letter 'w' infront of all existing calls to say. Alternatively, you could just rename wsay.exe to say.exe and leave the source alone.
 
-### GNU/Linux users: 
+### Speech engine 
 You're free to use any speech engine you like and modify the source as needed. A couple of alternatives are [espeak](https://espeak.sourceforge.net/) and [espeak-ng](https://github.com/espeak-ng/espeak-ng).
 
 ## Installation
