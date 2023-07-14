@@ -13,7 +13,10 @@ alias ps='~/Downloads/ost-main/ps'
 ```
 Press [return]
 Press [control][D]
-
+```
+source ~/.zshrc
+```
+Installation is now complete.
 #### To run
 ```
 ost
