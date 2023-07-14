@@ -6,7 +6,7 @@ utter() { nice -19 say "$1" & printf "$1"; }
 while read -n1 -s -p " "; do
 	case $REPLY in
 	#### Cases 1-? are yours to define, redefine, and add to.
-		1) utter "1" ;;
+		1) utter "1 + 1 = 2. Just about everything else depends on it." ;;
 		2) utter "2" ;;
 		3) utter "3" ;;
 		4) utter "4" ;;
@@ -24,6 +24,7 @@ while read -n1 -s -p " "; do
 		e) utter "Eat." ;;
 		r) utter "Redo." ;;
 		t) utter "Teatime." ;;
+		T) utter "Timing is everything." ;;
 		y) utter "Yes." ;;
 		u) utter "u" ;;
 		i) utter "I have an idea." ;;
@@ -32,7 +33,7 @@ while read -n1 -s -p " "; do
 		[) utter "[" ;;
 		]) utter "]" ;;
 		\\) utter "\\" ;;
-		a) utter "Apple." ;;
+		a) utter "Anything worth saying is worth saying briefly." ;;
 		A) utter "An example of an adage is, \"An apple a day keeps the doctor away.\"" ;;
 		s) utter "Supper." ;;
 		d) utter "Diaper." ;;
