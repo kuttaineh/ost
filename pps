@@ -24,7 +24,7 @@ while read -n1 -s -p " "; do
 		q) break ;;
 		Q) utter "Quiet, please." ;;
 		w) utter "w" ;;
-		e) utter "Eat." ;;
+		e) utter "Food, food now." ;;
 		r) utter "Redo." ;;
 		t) utter "Teatime." ;;
 		T) utter "Timing is everything." ;;
