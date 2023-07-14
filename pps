@@ -18,6 +18,9 @@ while read -n1 -s -p " "; do
 		\0) utter "0" ;;
 		\-) utter "-" ;;
 		=) utter "=" ;;
+		\*) utter "*" ;;
+		/) utter "/" ;;
+		+) utter "+" ;;
 		q) break ;;
 		Q) utter "Quiet, please." ;;
 		w) utter "w" ;;
@@ -54,7 +57,6 @@ while read -n1 -s -p " "; do
 		m) utter "Pay attention to me." ;;
 		,) utter "," ;;
 		.) utter "." ;;
-		/) utter "/" ;;
 		?) utter "I have a question." ;;
 		*) utter "[undefined]" ;;	## as inputs are single character ? is acting as *
 	esac
