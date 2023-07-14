@@ -16,7 +16,7 @@
 		read words
 		if [[ $words = \\* ]]
 		then
-			bash ps
+			ps
 		else
 			say "$words"
 		fi
