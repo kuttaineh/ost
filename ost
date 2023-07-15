@@ -16,7 +16,7 @@
 		read words
 		if [[ $words = \\* ]]
 		then
-			pps
+			psm
 		else
 			say "$words"
 		fi

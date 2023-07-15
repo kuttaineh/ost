@@ -9,7 +9,7 @@ cat>>.zshrc
 Press [return]
 ```
 alias ost='~/Downloads/ost-main/ost'
-alias pps='~/Downloads/ost-main/pps'
+alias psm='~/Downloads/ost-main/psm'
 ```
 Press [return]
 Press [control][D]
