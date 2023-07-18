@@ -16,7 +16,7 @@
 		read words
 		if [[ $words = \\* ]]
 		then
-			~/Downloads/ost-main/psm
+			~/Downloads/ost-main/pss
 		else
 			say "$words"
 		fi
