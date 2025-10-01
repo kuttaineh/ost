@@ -7,7 +7,7 @@
 
 	utter() { printf $1; say -v Samantha $1; }
 
-	instruct() { utter "Type \\ \\ [return] to enter into pre-programed speech mode and then type q to return to freemode."; }
+	instruct() { utter "Type \\ [return] to enter into pre-programed speech mode and then type q to return to freemode."; }
 
 # Program:
 
