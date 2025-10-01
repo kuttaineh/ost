@@ -14,7 +14,7 @@
 	instruct
 	while do
 		read words
-		if [[ $words = \\* ]]
+		if [[ $words = \* ]]
 		then
 			~/Downloads/ost-main/pss
 		else
