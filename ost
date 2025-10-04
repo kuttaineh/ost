@@ -5,20 +5,24 @@
 
 # Functions:
 
-	utter() { printf $1; say -v Samantha $1; }
+        utter() { print $1; say -v Samantha $1; }
 
-	instruct() { utter "Type ` [return] to enter into pre-programed speech mode and then type q to return to freemode."; }
+        instruct() { utter "Type: control-L return to clear screen.\n
+                        Control-C to exit the program."; }
 
 # Program:
 
-	instruct
-	while do
-		read words
-		if [[ $words = `* ]]
-		then
-			~/Downloads/ost-main/psm
-		else
-			say "$words"
-		fi
-	done
-	
+        instruct
+        while do
+                read words
+                if [[ $words = ^L ]]
+                then
+                        clear
+                elif [[ $words = \\* ]]
+                then
+                        ~/Downloads/ost-main/psm
+                else
+                        say "$words"
+                fi
+        done
+        
