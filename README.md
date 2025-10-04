@@ -21,7 +21,10 @@ Installation is now complete.
 ```
 ost
 ```
-
+#### To clear screen
+```
+[control][L] [return]
+```
 #### To exit
 ```
 [control][C]
