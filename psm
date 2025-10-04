@@ -1,64 +1,109 @@
 #!/bin/bash
-# Prereprogrammed Speech
+# Programmable Speech Mode
 # Written by https://m.me/Rammy
 # Description: User predetermined utterances.
 utter() { nice -19 say "$1" & printf "$1"; }
 while read -n1 -s -p " "; do
-	case $REPLY in
-	#### Cases 1-? are yours to define, redefine, and add to.
-		1) utter "1 + 1 = 2. Just about everything else depends on it." ;;
-		2) utter "2" ;;
-		3) utter "3" ;;
-		4) utter "4" ;;
-		5) utter "5" ;;
-		6) utter "6" ;;
-		7) utter "7" ;;
-		8) utter "8" ;;
-		9) utter "9" ;;
-		\0) utter "0" ;;
-		\-) utter "-" ;;
-		=) utter "=" ;;
-		\*) utter "*" ;;
-		/) utter "/" ;;
-		+) utter "+" ;;
-		q) break ;;
-		Q) utter "Quiet, please." ;;
-		w) utter "w" ;;
-		e) utter "Food, food now." ;;
-		r) utter "Redo." ;;
-		t) utter "Teatime." ;;
-		T) utter "Timing is everything." ;;
-		y) utter "Yes." ;;
-		u) utter "u" ;;
-		i) utter "I have an idea." ;;
-		o) utter "Open this." ;;
-		p) utter "Please." ;;
-		[) utter "[" ;;
-		]) utter "]" ;;
-		\\) utter "\\" ;;
-		a) utter "Anything worth saying is worth saying briefly." ;;
-		A) utter "An example of an adage is, \"An apple a day keeps the doctor away.\"" ;;
-		s) utter "Supper." ;;
-		d) utter "Diaper." ;;
-		f) utter "Please stop talking." ;;
-		g) utter "Gosh golly gee willikers." ;;
-		h) utter "I have a hunch." ;;
-		i) utter "I do not understand." ;;
-		j) utter "Joking." ;;
-		k) utter "Okay." ;;
-		l) utter "Lunch" ;;
-		z) utter "Zzz..." ;;
-		Z) utter "Zerocool, man." ;;
-		x) utter "x" ;;
-		c) utter "Cup please." ;;
-		v) utter "Very good." ;;
-		b) utter "Breakfast." ;;
-		n) utter "No." ;;
-		m) utter "Pay attention to me." ;;
-		,) utter "," ;;
-		.) utter "." ;;
-		?) utter "I have a question." ;;
-		*) utter "[undefined]" ;;	## as inputs are single character ? is acting as *
-	esac
+        case $REPLY in
+        #### Cases 1-? are yours to define, redefine, and add to.
+                \`) utter "\`" ;;
+                \~) utter "~" ;;
+                1) utter "1 + 1 = 2. Just about everything else depends on it." ;;
+                \!) utter "!" ;;
+                2) utter "2" ;;
+                \@) utter "@" ;;
+                3) utter "3" ;;
+                \#) utter "#" ;;
+                4) utter "4" ;;
+                \$) utter "$" ;;
+                5) utter "5" ;;
+                %) utter "%%" ;;
+                6) utter "6" ;;
+                \^) utter "^" ;;
+                7) utter "7" ;;
+                \&) utter "&" ;;
+                8) utter "8" ;;
+                \*) utter "*" ;;
+                9) utter "9" ;;
+                \() utter "(" ;;
+                \0) utter "0" ;;
+                \)) utter ")" ;;
+                \-) utter "-" ;;
+                _) utter "_" ;;
+                \=) utter "=" ;;
+                \+) utter "+" ;;
+                q) break ;;
+                Q) utter "Quiet, please." ;;
+                w) utter "wow wow wow" ;;
+                W) utter "Woman" ;;
+                e) utter "Food, food now." ;;
+                E) utter "Everyday: same thing. Breathe, breathe, breathe..." ;;
+                r) utter "Redo." ;;
+                R) utter "I recommend you talk to a counselor about that." ;;
+                t) utter "Teatime." ;;
+                T) utter "Timing is everything." ;;
+                y) utter "Yes." ;;
+                Y) utter "Yippie!" ;;
+                u) utter "u" ;;
+                U) utter "Undecided." ;;
+                i) utter "I have an idea." ;;
+                I) utter "Now, I REALLY have an idea!" ;;
+                o) utter "Open this." ;;
+                O) utter "Oh, well." ;;
+                p) utter "Please." ;;
+                P) utter "Peanut butter." ;;
+                \[) utter "[" ;;
+                \{) utter "{" ;;
+                \]) utter "]" ;;
+                \}) utter "}" ;;
+                \\) utter "\\" ;;
+                \|) utter "|" ;;
+                a) utter "Anything worth saying is worth saying briefly." ;;
+                A) utter "An example of an adage is, \"An apple a day keeps the doctor away.\"" ;;
+                s) utter "Supper." ;;
+                S) utter "Super!" ;;
+                d) utter "Diaper." ;;
+                D) utter "Darn it!" ;;
+                f) utter "Please stop talking." ;;
+                F) utter "Fudge is nice." ;;
+                g) utter "Gosh golly gee willikers." ;;
+                G) utter "Good." ;;
+                h) utter "I have a hunch." ;;
+                H) utter "Hi there! Have I told you you have the most beautiful eyes." ;;
+                i) utter "I do not understand." ;;
+                I) utter "My name is Inigo Montoya. You killed my father. Prepare to die." ;;
+                j) utter "Joking." ;;
+                J) utter "Actually, I wasn't really joking." ;;
+                k) utter "Okay." ;;
+                K) utter "Kilroy was here." ;;
+                l) utter "Lunch" ;;
+                L) utter "Look! Over there!" ;;
+                \;) utter ";" ;;
+                \:) utter ":" ;;
+                \') utter "'" ;;
+                \") utter "\"" ;;
+                z) utter "Zzz, zzz, zzz..." ;;
+                Z) utter "Zero cool, man." ;;
+                x) utter "x" ;;
+                X) utter "Well, time for an X-Ray!" ;;
+                c) utter "Cup please." ;;
+                C) utter "Come here please." ;;
+                v) utter "Very good." ;;
+                V) utter "Victory!" ;;
+                b) utter "Breakfast." ;;
+                B) utter "Bravo!" ;;
+                n) utter "No." ;;
+                N) utter "Nope." ;; 
+                m) utter "Pay attention to me." ;;
+                M) utter "Mucho gracias." ;;
+                \,) utter "," ;;
+                \<) utter "<" ;;
+                \.) utter "." ;;
+                \>) utter ">" ;;
+                \/) utter "/" ;;
+                \ ) utter " " ;;
+                ?) utter "[keybinding undefined]" ;;
+                *) utter "[undefined]" ;;       ## as inputs are single character ? is acting as *
+        esac
 done
 echo
